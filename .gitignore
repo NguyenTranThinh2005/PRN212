@@ -1,0 +1,12 @@
+# Bỏ qua Visual Studio cache
+.vs/
+*.user
+*.suo
+
+# Bỏ thư mục build
+bin/
+obj/
+
+# Bỏ các file tạm
+*.log
+*.tmp
