@@ -1,0 +1,25 @@
+﻿<Window x:Class="WPFList.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFList"
+        mc:Ignorable="d"
+        Title="SE1931112_NguyenTranThinh" Height="550" Width="800">
+    <Grid x:Name="List">
+        <ListBox x:Name="DuLieu1st" Margin="26,56,643,24"/>
+        <Label Content="Giá trị:" HorizontalAlignment="Left" Margin="273,59,0,0" VerticalAlignment="Top"/>
+        <Label Content="Vị trí:" HorizontalAlignment="Left" Margin="273,90,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtGiaTri" HorizontalAlignment="Left" Margin="26,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtGiaTriChen" HorizontalAlignment="Left" Margin="322,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtViTriChen" HorizontalAlignment="Left" Margin="322,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnThem" Content="Thêm vào list" HorizontalAlignment="Left" Margin="292,34,0,0" VerticalAlignment="Top" Width="147" Click="btnThem_Click"/>
+        <Button x:Name="btnChen" Content="Chèn" HorizontalAlignment="Left" Margin="365,135,0,0" VerticalAlignment="Top" Width="74" Click="btnChen_Click"/>
+        <Button x:Name="btnSapXepTang" Content="Sắp xếp tăng" HorizontalAlignment="Left" Margin="295,174,0,0" VerticalAlignment="Top" Width="147" Click="btnSapXepTang_Click"/>
+        <Button x:Name="btnSapXepGiam" Content="Sắp xếp giảm" HorizontalAlignment="Left" Margin="295,211,0,0" VerticalAlignment="Top" Width="147" Click="btnSapXepGiam_Click"/>
+        <Button x:Name="btnXoa1" Content="Xóa 1 phần tử" HorizontalAlignment="Left" Margin="295,247,0,0" VerticalAlignment="Top" Width="147" Click="btnXoa1_Click"/>
+        <Button x:Name="btnXoaNhieu" Content="Xóa nhiều phần tử " HorizontalAlignment="Left" Margin="295,283,0,0" VerticalAlignment="Top" Width="147" Click="btnXoaNhieu_Click"/>
+        <Button x:Name="btnXoaHet" Content="Xóa toàn bộ phần tử " HorizontalAlignment="Left" Margin="295,320,0,0" VerticalAlignment="Top" Width="147" Click="btnXoaHet_Click"/>
+
+    </Grid>
+</Window>
